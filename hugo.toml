@@ -1,0 +1,83 @@
+baseURL = 'https://chen-quan.github.io/'
+locale = 'zh-CN'
+title = '莲峰 · 学术博客'
+theme = "PaperMod"
+defaultContentLanguage = "zh"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+paginate = 10
+
+[params]
+  # ── 首页 Hero 区域 ──
+  homeInfoParams.Title = "莲峰山人"
+  homeInfoParams.Content = """
+  我在这里写下对研究的思考、课堂的箱外话语，
+  以及这个时代关于技术与人的公开笔记。
+  不完美的思考比沉默更诚实。
+  """
+
+  # ── 外观 ──
+  defaultTheme = "light"          # 或 "dark" / "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  disableThemeToggle = false
+
+  # ── 作者信息 ──
+  author = "莲峰山人"
+
+  # ── 社交链接（出现在 Footer）──
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/chen-quan"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:chenquan@zsc.edu.cn"
+
+# ── 导航菜单 ──
+[[menus.main]]
+  identifier = "posts"
+  name = "随笔"
+  url = "/posts/"
+  weight = 10
+
+[[menus.main]]
+  identifier = "notes"
+  name = "笔记"
+  url = "/notes/"
+  weight = 20
+
+[[menus.main]]
+  identifier = "courses"
+  name = "课程"
+  url = "/courses/"
+  weight = 30
+
+[[menus.main]]
+  identifier = "research"
+  name = "研究"
+  url = "/research/"
+  weight = 40
+
+[[menus.main]]
+  identifier = "about"
+  name = "关于"
+  url = "/about/"
+  weight = 50
+
+# ── Markdown 渲染 ──
+[markup.goldmark.renderer]
+  unsafe = true   # 允许 HTML in Markdown（嵌入学术公式等）
+
+[markup.highlight]
+  noClasses = false
+
+# ── 输出格式（含 RSS）──
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
