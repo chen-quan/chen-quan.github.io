@@ -11,11 +11,11 @@ paginate = 10
 [params]
   # ── 首页 Hero 区域 ──
   homeInfoParams.Title = "莲峰上山鹰"
-  homeInfoParams.Content = "
+  homeInfoParams.Content = """
   我在这里写下对研究的思考、课堂的箱外话语，
   以及这个时代关于技术与人的公开笔记。
   不完美的思考比沉默更诚实。
-  "
+  """
 
   # ── 外观 ──
   defaultTheme = "light"          # 或 "dark" / "auto"
