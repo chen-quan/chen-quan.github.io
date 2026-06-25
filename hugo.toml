@@ -1,6 +1,6 @@
 baseURL = 'https://chen-quan.github.io/'
 locale = 'zh-CN'
-title = '莲峰上山鹰 · 博客'
+title = '上山鹰'
 theme = "PaperMod"
 defaultContentLanguage = "zh"
 enableRobotsTXT = true
@@ -10,7 +10,7 @@ paginate = 10
 
 [params]
   # ── 首页 Hero 区域 ──
-  homeInfoParams.Title = "莲峰上山鹰"
+  homeInfoParams.Title = "上山鹰"
   homeInfoParams.Content = """
   我在这里写下对研究的思考、课堂的箱外话语，
   以及这个时代关于技术与人的公开笔记。
@@ -29,7 +29,7 @@ paginate = 10
   disableThemeToggle = false
 
   # ── 作者信息 ──
-  author = "莲峰上山鹰"
+  author = "上山鹰"
 
   # ── 社交链接（出现在 Footer）──
   [[params.socialIcons]]
