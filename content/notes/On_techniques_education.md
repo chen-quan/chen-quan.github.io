@@ -1,6 +1,6 @@
 +++
 date = '2026-07-05T13:42:28+08:00'
-draft = true
+draft = false
 title = 'On_techniques_education'
 +++
 
