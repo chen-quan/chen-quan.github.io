@@ -1,8 +1,7 @@
 +++
 date = '2026-07-05T13:42:28+08:00'
 draft = false
-title = '西方著名思想家关于技能教育的论述
-The acquisition of techniques: preparation for the vacations, arts, and professions'
+title = '西方著名思想家关于技能教育的论述'
 +++
 
 ---
