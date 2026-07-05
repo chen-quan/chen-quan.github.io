@@ -1,0 +1,199 @@
+{{- define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    {{- partial "profile-mode.html" . }}
+  </header>
+
+  <!-- 最新文章按板块展示 -->
+  <div class="latest-posts-by-section">
+    
+    <!-- 研究板块 -->
+    {{- $research := where .Site.RegularPages "Section" "research" }}
+    {{- if $research }}
+    <section class="post-section research-section">
+      <h2 class="section-title">
+        <a href="/research/">📚 研究</a>
+      </h2>
+      <ul class="post-list">
+        {{- range first 3 $research }}
+        <li class="post-item">
+          <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
+          <time class="post-date">{{ .Date.Format "2006-01-02" }}</time>
+          {{- if .Params.summary }}
+          <p class="post-summary">{{ .Params.summary }}</p>
+          {{- end }}
+        </li>
+        {{- end }}
+      </ul>
+      {{- if gt (len $research) 3 }}
+      <a href="/research/" class="read-more">查看全部 →</a>
+      {{- end }}
+    </section>
+    {{- end }}
+
+    <!-- 笔记板块 -->
+    {{- $notes := where .Site.RegularPages "Section" "notes" }}
+    {{- if $notes }}
+    <section class="post-section notes-section">
+      <h2 class="section-title">
+        <a href="/notes/">✍️ 笔记</a>
+      </h2>
+      <ul class="post-list">
+        {{- range first 3 $notes }}
+        <li class="post-item">
+          <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
+          <time class="post-date">{{ .Date.Format "2006-01-02" }}</time>
+          {{- if .Params.summary }}
+          <p class="post-summary">{{ .Params.summary }}</p>
+          {{- end }}
+        </li>
+        {{- end }}
+      </ul>
+      {{- if gt (len $notes) 3 }}
+      <a href="/notes/" class="read-more">查看全部 →</a>
+      {{- end }}
+    </section>
+    {{- end }}
+
+    <!-- 课程板块 -->
+    {{- $courses := where .Site.RegularPages "Section" "courses" }}
+    {{- if $courses }}
+    <section class="post-section courses-section">
+      <h2 class="section-title">
+        <a href="/courses/">🎓 课程</a>
+      </h2>
+      <ul class="post-list">
+        {{- range first 3 $courses }}
+        <li class="post-item">
+          <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
+          <time class="post-date">{{ .Date.Format "2006-01-02" }}</time>
+          {{- if .Params.summary }}
+          <p class="post-summary">{{ .Params.summary }}</p>
+          {{- end }}
+        </li>
+        {{- end }}
+      </ul>
+      {{- if gt (len $courses) 3 }}
+      <a href="/courses/" class="read-more">查看全部 →</a>
+      {{- end }}
+    </section>
+    {{- end }}
+
+    <!-- 随笔板块 -->
+    {{- $posts := where .Site.RegularPages "Section" "posts" }}
+    {{- if $posts }}
+    <section class="post-section posts-section">
+      <h2 class="section-title">
+        <a href="/posts/">📝 随笔</a>
+      </h2>
+      <ul class="post-list">
+        {{- range first 3 $posts }}
+        <li class="post-item">
+          <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
+          <time class="post-date">{{ .Date.Format "2006-01-02" }}</time>
+          {{- if .Params.summary }}
+          <p class="post-summary">{{ .Params.summary }}</p>
+          {{- end }}
+        </li>
+        {{- end }}
+      </ul>
+      {{- if gt (len $posts) 3 }}
+      <a href="/posts/" class="read-more">查看全部 →</a>
+      {{- end }}
+    </section>
+    {{- end }}
+
+  </div>
+
+  <style>
+    .latest-posts-by-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin: 3rem 0;
+    }
+
+    .post-section {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      background: var(--code-bg);
+    }
+
+    .section-title {
+      font-size: 1.2rem;
+      margin: 0 0 1.5rem 0;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--primary);
+    }
+
+    .section-title a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .section-title a:hover {
+      text-decoration: underline;
+    }
+
+    .post-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .post-item {
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .post-item:last-child {
+      border-bottom: none;
+    }
+
+    .post-link {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .post-link:hover {
+      text-decoration: underline;
+    }
+
+    .post-date {
+      font-size: 0.85rem;
+      color: var(--secondary);
+    }
+
+    .post-summary {
+      font-size: 0.9rem;
+      color: var(--content);
+      margin: 0.5rem 0 0 0;
+      line-height: 1.5;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-top: 1rem;
+      color: var(--primary);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .read-more:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .latest-posts-by-section {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+    }
+  </style>
+</article>
+{{- end }}
