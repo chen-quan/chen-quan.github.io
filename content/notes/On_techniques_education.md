@@ -30,7 +30,7 @@ Plato、Aristotle、Hippocrates、Lucretius、Plutarch、Rabelais、Moliere、Sm
 
 ---
 
-## [1. Plato 柏拉图]({{< relref "On_techniques_education_plato.md" >}})
+## [1. Plato 柏拉图](/notes/On_techniques_education_plato.md)
 相关著作：《理想国》Republic、《法律篇》Laws、《普罗泰戈拉》Protagoras、《高尔吉亚》Gorgias。  
 柏拉图把“技艺”理解为有对象、有规则、有目的的知识，例如医术关心身体健康，航海术关心航行安全，政治术则应关心灵魂和城邦的善。在《理想国》中，他提出职业分工原则：每个人因天赋不同，应从事最适合自己的一项工作，城邦正义也表现为“各司其职”。但柏拉图反对把教育降为单纯的谋生训练。护卫者的教育不是职业学校式训练，而是音乐、体操、数学、辩证法的长期塑造，使技术能力服从于智慧和正义。《高尔吉亚》中他批判修辞术若只追求说服和成功，便只是“迎合术”而非真正技艺；真正的专业必须知道自身服务的善。
 
