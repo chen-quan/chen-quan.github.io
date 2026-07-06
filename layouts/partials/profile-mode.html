@@ -1,0 +1,11 @@
+{{- $homeInfo := site.Params.homeInfoParams -}}
+{{- if $homeInfo }}
+<div class="home-info">
+  {{- with $homeInfo.Title }}
+  <h1>{{ . }}</h1>
+  {{- end }}
+  {{- with $homeInfo.Content }}
+  <div class="home-info-content">{{ . | markdownify }}</div>
+  {{- end }}
+</div>
+{{- end }}
