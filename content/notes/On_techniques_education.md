@@ -2,16 +2,15 @@
 date = '2026-07-05T13:42:28+08:00'
 draft = false
 title = '西方著名思想家关于技能教育的论述'
-summary='The acquisition of techniques: preparation for the vacations, arts, and professions'
+summary = 'The acquisition of techniques: preparation for the vacations, arts, and professions'
+tag = '教育'
 +++
 
 ---
 
 ## 摘要
 
-《西方世界伟大著作(Great Books of the Western World)》的这套丛书中的第一卷《西方大观念(The Syntopicon： An Index to the Great Ideas of Western Civilization)》列出了102个主题。其中第20个主题是教育Education。教育主题中有9个分类主题，本文特别关注第6个：“获得技术：为专业、艺术和职业的准备(The acquisition of techniques: preparation for the vacations, arts, and professions)”。这个分类列出了Plato、Aristotle、Hippocrates、Lucretius、Plutarch、Rabelais、Moliere、Smith、Gibbon、Kant、Mill、Tocqueville、Goethe、Austen、Darwin、Marx、Freud、Dewey、Whitehead、Veblen、Tawney、Weber的有关探讨该主题的著作。
-
-综合来说，这些思想家围绕“获得技术：为职业、艺术和专业做准备”大致形成几条思想线索。
+Plato、Aristotle、Hippocrates、Lucretius、Plutarch、Rabelais、Moliere、Smith、Gibbon、Kant、Mill、Tocqueville、Goethe、Austen、Darwin、Marx、Freud、Dewey、Whitehead、Veblen、Tawney、Weber等西方著名的思想家、文学家都对技能、技艺、职业的教育做过广泛、深入探讨。综合来说，大致形成了几条思想线索。
 
 第一条是古典线索：柏拉图和亚里士多德都承认技艺的重要性，但反对把教育降为谋生训练。技能必须服从善、德性、公民生活和理性秩序。
 
@@ -25,7 +24,7 @@ summary='The acquisition of techniques: preparation for the vacations, arts, and
 
 第六条是现代教育改革线索：康德、密尔、杜威、怀特海都强调，技术训练必须和判断力、自由、经验、道德或创造性结合。单纯训练能力不足以构成教育；教育必须让人知道怎样使用能力，以及为什么使用能力。
 
-如果把这个小题压缩成一句话，它关心的是：人怎样从无技能者成长为能胜任某种艺术、行业或专业的人，而这种成长是否同时保存了人的自由、判断、德性和公共责任。
+总而言之，他们关心的是：人怎样从无技能者成长为能胜任某种艺术、行业或专业的人，而这种成长是否同时保存了人的自由、判断、德性和公共责任。
 
 以下是这些思想家的简要讨论，更详细的讨论我另外再分别笔记之。
 
