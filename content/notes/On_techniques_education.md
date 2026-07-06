@@ -30,11 +30,11 @@ Plato、Aristotle、Hippocrates、Lucretius、Plutarch、Rabelais、Moliere、Sm
 
 ---
 
-## [1. Plato 柏拉图](./On_techniques_education_plato.md)
+## [1. Plato 柏拉图](../On_techniques_education_plato.md)
 相关著作：《理想国》Republic、《法律篇》Laws、《普罗泰戈拉》Protagoras、《高尔吉亚》Gorgias。  
 柏拉图把“技艺”理解为有对象、有规则、有目的的知识，例如医术关心身体健康，航海术关心航行安全，政治术则应关心灵魂和城邦的善。在《理想国》中，他提出职业分工原则：每个人因天赋不同，应从事最适合自己的一项工作，城邦正义也表现为“各司其职”。但柏拉图反对把教育降为单纯的谋生训练。护卫者的教育不是职业学校式训练，而是音乐、体操、数学、辩证法的长期塑造，使技术能力服从于智慧和正义。《高尔吉亚》中他批判修辞术若只追求说服和成功，便只是“迎合术”而非真正技艺；真正的专业必须知道自身服务的善。
 
-## [2. Aristotle 亚里士多德](./On_techniques_education_Aristotle.md)  
+## [2. Aristotle 亚里士多德](../On_techniques_education_Aristotle.md)  
 相关著作：《尼各马可伦理学》Nicomachean Ethics、《政治学》Politics、《形而上学》Metaphysics、《诗学》Poetics。  
 亚里士多德在《尼各马可伦理学》第六卷区分了理论知识、实践智慧和制作技艺。techne 是“关于制作的理性能力”，医生、建筑师、诗人、工匠都属于这一层面。它通过经验、规则和反复练习获得，但它不同于德性和实践智慧。  
 在《政治学》中，他明确区分“自由教育”和“卑贱职业训练”。他担心某些纯粹谋生的手艺会使身体和心灵狭窄化，妨碍自由公民参与政治和思考善的生活。不过他并不轻视技艺本身，而是主张技术训练必须被置于公民德性和闲暇生活的秩序之中。

@@ -1,7 +1,7 @@
 +++
 date = '2026-07-06T16:19:56+08:00'
 draft = false
-title = 'On_techniques_education_Aristotle'
+title = 'Aristotle亚里斯多德论技能、技艺、职业教育'
 summary = '技艺是一种以理性为指导的制作能力，它来自经验、训练、原因理解和反复实践；但技艺不是最高智慧，也不能替代德性和实践判断。'
 +++
 
