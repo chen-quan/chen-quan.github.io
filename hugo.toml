@@ -79,3 +79,7 @@ paginate = 10
 # ── 输出格式（含 RSS）──
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+# ── Google Analytics ──
+[services.googleAnalytics]
+id = 'G-SHTXYBSF50'
