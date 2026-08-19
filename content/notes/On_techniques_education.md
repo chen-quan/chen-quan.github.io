@@ -110,5 +110,5 @@ Plato、Aristotle、Hippocrates、Lucretius、Plutarch、Rabelais、Moliere、Sm
 ## [22. Max Weber 韦伯]({{< ref "On_techniques_education_weber.md" >}})
 相关著作：《新教伦理与资本主义精神》The Protestant Ethic and the Spirit of Capitalism、《以学术为业》Science as a Vocation、《以政治为业》Politics as a Vocation�[...]
 
-## [23. R. H. Tawney 托尼]（重复占位示例）
+
 
